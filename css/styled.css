@@ -17,6 +17,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 
 }
 
@@ -26,6 +27,7 @@ body{
     align-items: center;
     height: 100%;
     margin-right: 24px;
+    
 }
 
 .nav-list a{
@@ -47,4 +49,20 @@ body{
     background-color: #dacdcd;
     height: 100vh;
     height: calc(100vh - 80px);
+    display: flex;
+    background-image: url("../img/programador.png");
+    align-items: center;
+}
+
+.main h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.main p {
+    font-size: 26px;
+    font-style: italic;
+    color: #1e96fc;
+    margin-top: 10px;
+    margin-bottom: 35px;
 }

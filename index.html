@@ -13,13 +13,13 @@
    <nav class="nav">
     <ul class="nav-list">
         <li>
-            <a href="#">Home</a>
+            <a href="#" id="home-a">Home</a>
         </li>
         <li>
-            <a href="">Sobre</a>
+            <a href="#" id="sobre-a">Sobre</a>
         </li>    
         <li>
-            <a href="#">Projetos</a>
+            <a href="#" id="projetos-a">Projetos</a>
         </li>
     </ul>
    </nav>
@@ -28,5 +28,45 @@
         <p>Este é o meu site de Projetos</p>
         <a href="projetos.html" class="btn"><button>Veja Meus Projetos</button></a>
     </section>
+
+    <script>
+        
+        const linkHome = document.getElementById("home-a");
+        const linkSobre = document.getElementById("sobre-a");
+        const linkProjetos = document.getElementById("projetos-a");
+
+        linkHome.addEventListener("click", () => {
+            linkHome.style.background = "#fff";
+            linkHome.style.color = "#000";
+
+            linkSobre.style.background = "#000";
+            linkSobre.style.color = "#fff";
+
+            linkProjetos.style.background = "#000";
+            linkProjetos.style.color = "#fff";
+        });
+
+        linkSobre.addEventListener("click", () => {
+            linkHome.style.background = "#000";
+            linkHome.style.color = "#fff";
+
+            linkSobre.style.background = "#fff";
+            linkSobre.style.color = "#000";
+
+            linkProjetos.style.background = "#000";
+            linkProjetos.style.color = "#fff";
+        });
+
+        linkProjetos.addEventListener("click", () => {
+            linkHome.style.background = "#000";
+            linkHome.style.color = "#fff";
+
+            linkSobre.style.background = "#000";
+            linkSobre.style.color = "#fff";
+
+            linkProjetos.style.background = "#fff";
+            linkProjetos.style.color = "#000";
+        });
+    </script>
 </body>
 </html>
