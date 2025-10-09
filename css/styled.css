@@ -1,16 +1,23 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 819942c7045e75afc104acbf11ecb475dea526d6
 * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 html {
     scroll-behavior: smooth;
 }
 
+=======
+ 
+>>>>>>> 819942c7045e75afc104acbf11ecb475dea526d6
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -22,9 +29,12 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+<<<<<<< HEAD
     position: sticky;
     top: 0;
     z-index: 9;
+=======
+>>>>>>> 819942c7045e75afc104acbf11ecb475dea526d6
 }
  
 .nav-list {
@@ -42,11 +52,14 @@ body {
 .nav-list a:hover {
     color: aliceblue;
 }
+<<<<<<< HEAD
 
 .nav-list a.active {
     color: #000;
     background-color: #fff;
 }
+=======
+>>>>>>> 819942c7045e75afc104acbf11ecb475dea526d6
  
 .main{
     width: 100%;
@@ -57,9 +70,12 @@ body {
     background-image: url(/img/programador.png);
     align-items: center;
     padding-left: 10%;
+<<<<<<< HEAD
     padding-right: 10%;
 
     justify-content: space-between;
+=======
+>>>>>>> 819942c7045e75afc104acbf11ecb475dea526d6
 }
  
 .main h1{
@@ -74,6 +90,7 @@ body {
     color: #1e96fc;
     margin-top:  10px;
     margin-bottom: 35px
+<<<<<<< HEAD
 }
 
 .call-to-action{
@@ -295,3 +312,8 @@ footer:hover{
 
 
 
+=======
+ 
+ 
+}
+>>>>>>> 819942c7045e75afc104acbf11ecb475dea526d6
